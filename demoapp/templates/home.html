@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head lang="en">
+<title>DEMO APP</title>
+</head>
+<body>
+    <h1>We are working on Django Project</h1>
+    
+    <p><strong>Name:</strong> Ram</p>
+    <p><strong>Address:</strong> Kushma</p>
+    <p><strong>Contact:</strong>9847620206</p>
+
+
+    {% for student in student_list %}
+    <p><strong>Name:</strong> {{student.name}}</p>
+    <p><strong>Address:</strong> {{student.address}}</p>
+    <p><strong>Contact:</strong>{{student.contact}}</p>
+    <br>
+    {% endfor %}
+
+</body>
